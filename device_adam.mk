@@ -7,7 +7,7 @@ $(call inherit-product-if-exists, vendor/notionink/adam/adam-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/notionink/adam_recovery/overlay
 
-LOCAL_PATH := device/notionink/adam
+LOCAL_PATH := device/notionink/adam_recovery
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else
