@@ -6,5 +6,5 @@
 /misc       mtd         misc
 /recovery   mtd         recovery
 /sdcard     vfat        /dev/block/mmcblk3p1
-/sdcard-ext vfat	/dev/block/mmcblk2p1	/dev/block/mmcblk2
+/external_sd vfat	/dev/block/mmcblk2p1	/dev/block/mmcblk2
 /system     yaffs2      system

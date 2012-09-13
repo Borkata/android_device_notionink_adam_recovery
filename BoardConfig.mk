@@ -26,9 +26,9 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_PREBUILT_KERNEL := device/notionink/adam_recovery/kernel
 
-#BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 #BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_MDPI_RECOVERY := true
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/notionink/adam_recovery/recovery/recovery_keys.c
+#BOARD_CUSTOM_RECOVERY_KEYMAPPING := device/notionink/adam_recovery/recovery/recovery_keys.c
 #BOARD_TOUCH_RECOVERY := true
