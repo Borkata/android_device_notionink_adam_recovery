@@ -1,1 +1,1 @@
-add_lunch_combo full_adam_recovery-eng
+add_lunch_combo cm_adam_recovery-userdebug
