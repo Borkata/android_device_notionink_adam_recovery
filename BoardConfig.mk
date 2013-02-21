@@ -36,6 +36,10 @@ BOARD_MDPI_RECOVERY := true
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := device/notionink/adam_recovery/recovery/recovery_keys.c
 #BOARD_TOUCH_RECOVERY := true
 
+# Recovery: set depending on recovery being built for. (CWM or TWRP)
+#           both init scripts can be found in the recovery folder
+TARGET_RECOVERY_INITRC := device/notionink/adam_recovery/recovery/init.rc
+
 #twrp
 DEVICE_RESOLUTION := 1024x600
 TW_FLASH_FROM_STORAGE := true
